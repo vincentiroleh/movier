@@ -1,9 +1,10 @@
-const express = require('express');
-const app = express();
-const path = require('path');
-const request = require('request');
+import express from "express";
+import path from "path"
+import request from "request";
 
 require('dotenv').config();
+
+const app = express();
 
 // Middleware
 app.set('views', path.join(__dirname, 'views'));
