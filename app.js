@@ -1,6 +1,6 @@
-import express from "express";
-import path from "path"
-import request from "request";
+const express = require("express");
+const path = require("path");
+const request = require("request");
 
 require('dotenv').config();
 
